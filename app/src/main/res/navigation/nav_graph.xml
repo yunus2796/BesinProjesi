@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/besinDetayFragment"
-        android:name="com.yunussevimli.besinprojesi.BesinDetayFragment"
+        android:name="com.yunussevimli.besinprojesi.view.BesinDetayiFragment"
         android:label="fragment_besin_detay"
         tools:layout="@layout/fragment_besin_detay" >
         <argument
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/besinListeFragment"
-        android:name="com.yunussevimli.besinprojesi.BesinListeFragment"
+        android:name="com.yunussevimli.besinprojesi.view.BesinListesiFragment"
         android:label="fragment_besin_liste"
         tools:layout="@layout/fragment_besin_liste" >
         <action
